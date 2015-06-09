@@ -22,24 +22,24 @@ PRODUCT_PACKAGES += \
 	touch_module_id_0x53 \
 	touch_module_id_0x54 \
 	touch_module_id_0x5d \
-	modem.b00 \
-	modem.b01 \
-	modem.b02 \
-	modem.b03 \
-	modem.b04 \
-	modem.b05 \
-	modem.b08 \
-	modem.b11 \
-	modem.b13 \
-	modem.b14 \
-	modem.b15 \
-	modem.b16 \
-	modem.b17 \
-	modem.b18 \
-	modem.b19 \
-	modem.b20 \
-	modem.b21 \
-	modem.b22 \
-	modem.b25 \
-	modem.b26 \
-	modem.mdt
+	modem_b00 \
+	modem_b01 \
+	modem_b02 \
+	modem_b03 \
+	modem_b04 \
+	modem_b05 \
+	modem_b08 \
+	modem_b11 \
+	modem_b13 \
+	modem_b14 \
+	modem_b15 \
+	modem_b16 \
+	modem_b17 \
+	modem_b18 \
+	modem_b19 \
+	modem_b20 \
+	modem_b21 \
+	modem_b22 \
+	modem_b25 \
+	modem_b26 \
+	modem_mdt
