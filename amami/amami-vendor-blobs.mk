@@ -109,4 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/sony/amami/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/sony/amami/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/sony/amami/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so
+    vendor/sony/amami/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/sony/amami/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/sony/amami/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so
+
