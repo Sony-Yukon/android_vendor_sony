@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/rhine/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/rhine/proprietary/lib/libcacao_chokoball.so:system/lib/libcacao_chokoball.so \
+    vendor/sony/rhine/proprietary/lib/libsony_chokoballrsc.so:system/lib/libsony_chokoballrsc.so \
     vendor/sony/rhine/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
     vendor/sony/rhine/proprietary/lib/libcacao_common.so:system/lib/libcacao_common.so \
     vendor/sony/rhine/proprietary/lib/libcacao_imgproc.so:system/lib/libcacao_imgproc.so \
@@ -25,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/lib/libcacao_pal.so:system/lib/libcacao_pal.so \
     vendor/sony/rhine/proprietary/lib/libcacao_parammgr.so:system/lib/libcacao_parammgr.so \
     vendor/sony/rhine/proprietary/lib/libcacao_service.so:system/lib/libcacao_service.so \
+    vendor/sony/rhine/proprietary/lib/libcacao_system.so:system/lib/libcacao_system.so \
     vendor/sony/rhine/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/rhine/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/sony/rhine/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
@@ -136,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/sony/rhine/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/sony/rhine/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/sony/rhine/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/sony/rhine/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/sony/rhine/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/sony/rhine/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
