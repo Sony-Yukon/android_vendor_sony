@@ -16,7 +16,13 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/sony/rhine/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
+    vendor/sony/rhine/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+    vendor/sony/rhine/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+    vendor/sony/rhine/proprietary/lib/libexcal_system.so:system/lib/libexcal_system.so \
+    vendor/sony/rhine/proprietary/lib/libcacao_face.so:system/lib/libcacao_face.so \
+    vendor/sony/rhine/proprietary/lib/libcacao_imageconv.so:system/lib/libcacao_imageconv.so \
+    vendor/sony/rhine/proprietary/lib/libsony_face.so:system/lib/libsony_face.so \
+    vendor/sony/rhine/proprietary/lib/libsonydseehxwrapper.so:system/lib/libsonydseehxwrapper.so \
     vendor/sony/rhine/proprietary/lib/libcacao_chokoball.so:system/lib/libcacao_chokoball.so \
     vendor/sony/rhine/proprietary/lib/libsony_chokoballrsc.so:system/lib/libsony_chokoballrsc.so \
     vendor/sony/rhine/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
