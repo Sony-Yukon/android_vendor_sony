@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
     vendor/sony/eagle/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
     vendor/sony/eagle/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/sony/eagle/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
     vendor/sony/eagle/proprietary/vendor/camera/morpho_colorcorrection.cfg:system/vendor/camera/morpho_colorcorrection.cfg \
     vendor/sony/eagle/proprietary/vendor/camera/morpho_denoiser.cfg:system/vendor/camera/morpho_denoiser.cfg \
     vendor/sony/eagle/proprietary/vendor/camera/morpho_denoiser_subcam.cfg:system/vendor/camera/morpho_denoiser_subcam.cfg \
