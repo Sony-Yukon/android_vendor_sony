@@ -184,4 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/sony/eagle/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
-    vendor/sony/eagle/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so
+    vendor/sony/eagle/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
+    vendor/sony/eagle/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
