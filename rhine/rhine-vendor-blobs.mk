@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/sony/rhine/proprietary/vendor/lib/hw/camera.vendor.qcom.so:system/vendor/lib/hw/camera.rhine.so \
+    vendor/sony/rhine/proprietary/vendor/lib/hw/camera.qcom.so:system/vendor/lib/hw/camera.qcom.so \
     vendor/sony/rhine/proprietary/vendor/lib/hw/camera.msm8974.so:system/vendor/lib/hw/camera.msm8974.so \
     vendor/sony/rhine/proprietary/vendor/lib/libexcal_system.so:system/vendor/lib/libexcal_system.so \
     vendor/sony/rhine/proprietary/vendor/lib/libcacao_face.so:system/vendor/lib/libcacao_face.so \
@@ -68,8 +68,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
     vendor/sony/rhine/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_comon.so \
     vendor/sony/rhine/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
-    vendor/sony/rhine/proprietary/vendor/lib/libchromatix_imx132_hfr_90.so:system/vendor/lib/libchromatix_imx132_hfr_90.so \
-    vendor/sony/rhine/proprietary/vendor/lib/libchromatix_imx132_hfr_60.so:system/vendor/lib/libchromatix_imx132_hfr_60.so \
+    vendor/sony/rhine/proprietary/vendor/lib/libchromatix_imx135_hfr_90.so:system/vendor/lib/libchromatix_imx135_hfr_90.so \
+    vendor/sony/rhine/proprietary/vendor/lib/libchromatix_imx135_hfr_60.so:system/vendor/lib/libchromatix_imx135_hfr_60.so \
     vendor/sony/rhine/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
     vendor/sony/rhine/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
     vendor/sony/rhine/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
