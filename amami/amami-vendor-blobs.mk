@@ -104,6 +104,28 @@ PRODUCT_COPY_FILES += \
     vendor/sony/amami/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
     vendor/sony/amami/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/amami/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_cam_ctrl_plugin.so:system/vendor/lib/camera/libexcal_cam_ctrl_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_cap_ctrl_plugin.so:system/vendor/lib/camera/libexcal_cap_ctrl_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_color_ctrl_plugin.so:system/vendor/lib/camera/libexcal_color_ctrl_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_debug_display_plugin.so:system/vendor/lib/camera/libexcal_debug_display_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_exposure_ctrl_plugin.so:system/vendor/lib/camera/libexcal_exposure_ctrl_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_face_detector_plugin.so:system/vendor/lib/camera/libexcal_face_detector_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_flicker_detector_plugin.so:system/vendor/lib/camera/libexcal_flicker_detector_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_focus_stats_conv_plugin.so:system/vendor/lib/camera/libexcal_focus_stats_conv_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_hal_ctrl_plugin.so:system/vendor/lib/camera/libexcal_hal_ctrl_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_hdr_plugin.so:system/vendor/lib/camera/libexcal_hdr_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_idt_ctrl_plugin.so:system/vendor/lib/camera/libexcal_idt_ctrl_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_image_conv_plugin.so:system/vendor/lib/camera/libexcal_image_conv_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_iq_ctrl_plugin.so:system/vendor/lib/camera/libexcal_iq_ctrl_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_jpeg_enc_plugin.so:system/vendor/lib/camera/libexcal_jpeg_enc_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_lens_ctrl_plugin.so:system/vendor/lib/camera/libexcal_lens_ctrl_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_motion_estimation_plugin.so:system/vendor/lib/camera/libexcal_motion_estimation_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_multiframe_nr_plugin.so:system/vendor/lib/camera/libexcal_multiframe_nr_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_object_tracker_plugin.so:system/vendor/lib/camera/libexcal_object_tracker_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_scene_detector_plugin.so:system/vendor/lib/camera/libexcal_scene_detector_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_snapshot_ctrl_plugin.so:system/vendor/lib/camera/libexcal_snapshot_ctrl_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_splitter_plugin.so:system/vendor/lib/camera/libexcal_splitter_plugin.so \
+    vendor/sony/amami/proprietary/vendor/lib/camera/libexcal_streaming_ctrl_plugin.so:system/vendor/lib/camera/libexcal_streaming_ctrl_plugin.so \
     vendor/sony/amami/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/sony/amami/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/sony/amami/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
