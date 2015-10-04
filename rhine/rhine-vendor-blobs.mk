@@ -37,6 +37,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine/proprietary/vendor/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/sony/rhine/proprietary/vendor/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/rhine/proprietary/vendor/lib/libcald_util.so:system/lib/libcald_util.so \
+    vendor/sony/rhine/proprietary/vendor/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/sony/rhine/proprietary/vendor/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
+    vendor/sony/rhine/proprietary/vendor/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
+    vendor/sony/rhine/proprietary/vendor/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
     vendor/sony/rhine/proprietary/vendor/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/rhine/proprietary/vendor/lib/libcammw.so:system/lib/libcammw.so \
     vendor/sony/rhine/proprietary/vendor/lib/libexcal_core.so:system/lib/libexcal_core.so \
