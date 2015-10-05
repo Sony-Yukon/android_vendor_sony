@@ -16,5 +16,4 @@ PRODUCT_PACKAGES += \
 	btnvtool \
 	libpn547_fw \
 	sensors.msm8226 \
-	sensorsecond.msm8226.so \
 	libyasalgo
