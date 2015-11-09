@@ -13,6 +13,13 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+	MTP_Bluetooth_cal.acdb \
+	MTP_General_cal.acdb \
+	MTP_Global_cal.acdb \
+	MTP_Handset_cal.acdb \
+	MTP_Hdmi_cal.acdb \
+	MTP_Headset_cal.acdb \
+	MTP_Speaker_cal.acdb \
 	cmnlib_b00 \
 	cmnlib_b01 \
 	cmnlib_b02 \
@@ -50,4 +57,7 @@ PRODUCT_PACKAGES += \
 	keymaster_b03 \
 	keymaster_mdt \
 	libadsprpc \
-	libbtnv
+	libbtnv\
+	libqcbassboost.so \
+	libqcreverb.so \
+	libqcvirt.so

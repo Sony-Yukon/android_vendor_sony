@@ -66,6 +66,76 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := MTP_Bluetooth_cal
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .acdb
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/MTP
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MTP_General_cal
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/acdbdata/MTP/MTP_General_cal.acdb
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .acdb
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/MTP
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MTP_Global_cal
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/acdbdata/MTP/MTP_Global_cal.acdb
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .acdb
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/MTP
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MTP_Handset_cal
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/acdbdata/MTP/MTP_Handset_cal.acdb
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .acdb
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/MTP
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MTP_Hdmi_cal
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .acdb
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/MTP
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MTP_Headset_cal
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/acdbdata/MTP/MTP_Headset_cal.acdb
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .acdb
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/MTP
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MTP_Speaker_cal
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .acdb
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/MTP
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := adsp_b00
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/adsp.b00
@@ -824,5 +894,35 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcbassboost
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/soundfx/libqcbassboost.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcreverb
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/soundfx/libqcreverb.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcvirt
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/soundfx/libqcvirt.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/soundfx
 include $(BUILD_PREBUILT)
 endif

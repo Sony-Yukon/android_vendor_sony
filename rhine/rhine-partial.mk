@@ -18,6 +18,13 @@ PRODUCT_PACKAGES += \
 	Global_cal \
 	Hdmi_cal \
 	Headset_cal \
+	MTP_Bluetooth_cal.acdb \
+	MTP_General_cal.acdb \
+	MTP_Global_cal.acdb \
+	MTP_Handset_cal.acdb \
+	MTP_Hdmi_cal.acdb \
+	MTP_Headset_cal.acdb \
+	MTP_Speaker_cal.acdb \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \
@@ -87,4 +94,7 @@ PRODUCT_PACKAGES += \
 	nfc.msm8974 \
 	sensors.msm8974 \
 	libadsprpc \
-	libbtnv
+	libbtnv \
+	libqcbassboost.so \
+	libqcreverb.so \
+	libqcvirt.so
