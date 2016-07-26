@@ -187,3 +187,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/sony/eagle/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/sony/eagle/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
+
+# Sensors
+PRODUCT_COPY_FILES += \
+vendor/sony/eagle/proprietary/bin/memsicd:system/bin/memsicd \
+vendor/sony/eagle/proprietary/vendor/lib/hw/sensorsecond.msm8226.so:system/vendor/lib/hw/sensorsecond.msm8226.so
+
+# FM
+PRODUCT_COPY_FILES += \
+vendor/sony/eagle/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
