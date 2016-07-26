@@ -188,6 +188,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/sony/eagle/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
 
+# NFC
+PRODUCT_COPY_FILES += \
+vendor/sony/eagle/proprietary/lib/hw/nfc_nci.pn54x.msm8226.so:system/lib/hw/nfc_nci.pn54x.msm8226.so
+
 # Sensors
 PRODUCT_COPY_FILES += \
 vendor/sony/eagle/proprietary/bin/memsicd:system/bin/memsicd \
