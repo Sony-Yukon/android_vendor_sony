@@ -192,11 +192,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 vendor/sony/eagle/proprietary/lib/hw/nfc_nci.pn54x.msm8226.so:system/lib/hw/nfc_nci.pn54x.msm8226.so
 
-# Sensors
-PRODUCT_COPY_FILES += \
-vendor/sony/eagle/proprietary/bin/memsicd:system/bin/memsicd \
-vendor/sony/eagle/proprietary/vendor/lib/hw/sensorsecond.msm8226.so:system/vendor/lib/hw/sensorsecond.msm8226.so
-
 # FM
 PRODUCT_COPY_FILES += \
 vendor/sony/eagle/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
