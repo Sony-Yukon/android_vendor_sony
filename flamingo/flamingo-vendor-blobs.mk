@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/flamingo/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/sony/flamingo/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/sony/flamingo/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-	vendor/sony/flamingo/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
+    vendor/sony/flamingo/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
     vendor/sony/flamingo/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
     vendor/sony/flamingo/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
     vendor/sony/flamingo/proprietary/etc/firmware/cmnlib.b03:system/etc/firmware/cmnlib.b03 \
@@ -62,7 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/flamingo/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/sony/flamingo/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/sony/flamingo/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-	vendor/sony/flamingo/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
+    vendor/sony/flamingo/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/flamingo/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/flamingo/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
     vendor/sony/flamingo/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
