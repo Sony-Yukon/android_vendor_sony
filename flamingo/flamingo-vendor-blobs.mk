@@ -360,4 +360,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/flamingo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/sony/flamingo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/sony/yukon-eagle/proprietary/bin/wifimactool:system/bin/wifimactool
