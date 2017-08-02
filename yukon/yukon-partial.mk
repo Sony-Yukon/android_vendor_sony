@@ -13,18 +13,69 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	MTP_Bluetooth_cal.acdb \
-	MTP_General_cal.acdb \
-	MTP_Global_cal.acdb \
-	MTP_Handset_cal.acdb \
-	MTP_Hdmi_cal.acdb \
-	MTP_Headset_cal.acdb \
-	MTP_Speaker_cal.acdb \
+	irsc_util \
+	mlog_qmi_service \
+	netmgrd \
+	pm-proxy \
+	pm-service \
+	qmuxd \
+	qseecomd \
+	rmt_storage \
+	sct_service \
+	sensors \
+	ta_qmi_service \
+	tad_static \
+	libQSEEComAPI \
+	libadsprpc \
+	libconfigdb \
+	libdiag \
+	libdrmfs \
+	libdrmtime \
+	libdsi_netctrl \
+	libdsutils \
+	libfastcvadsp_stub \
+	libfastcvopt \
+	libflash_pmic \
+	libidl \
+	libllvd_smore \
+	libloc_api_v02 \
+	libloc_ds_api \
+	libmdmdetect \
+	libmiscta \
+	libnetmgr \
+	libperipheral_client \
+	libqcci_legacy \
+	libqdi \
+	libqdp \
+	libqmi \
+	libqmi_cci \
+	libqmi_client_helper \
+	libqmi_client_qmux \
+	libqmi_common_so \
+	libqmi_csi \
+	libqmi_encdec \
+	libqmiservices \
+	libril-qc-qmi-1 \
+	libril-qc-qmi-2 \
+	libril-qcril-hook-oem \
+	libseemore \
+	libsensor1 \
+	libsensor_reg \
+	libsmemlog \
+	libsystem_health_mon \
+	libta \
+	libtime_genoff \
+	libxml
+
+PRODUCT_PACKAGES += \
+	a330_pfp \
+	a330_pm4 \
 	cmnlib_b00 \
 	cmnlib_b01 \
 	cmnlib_b02 \
 	cmnlib_b03 \
 	cmnlib_mdt \
+	cpp_firmware_v1_2_0 \
 	tzhdcp_b00 \
 	tzhdcp_b01 \
 	tzhdcp_b02 \
@@ -50,14 +101,10 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
-	hci_qcomm_init \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \
 	keymaster_b03 \
 	keymaster_mdt \
-	libadsprpc \
-	libbtnv\
-	libqcbassboost.so \
-	libqcreverb.so \
-	libqcvirt.so
+	libpn547_fw \
+	libbtnv
