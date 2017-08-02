@@ -59,5 +59,4 @@ PRODUCT_PACKAGES += \
 	widevine_b03 \
 	widevine_mdt \
 	btnvtool \
-	libpn547_fw \
 	sensors.msm8226
