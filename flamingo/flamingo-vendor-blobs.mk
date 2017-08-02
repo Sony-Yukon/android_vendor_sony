@@ -23,28 +23,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/flamingo/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/flamingo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/flamingo/proprietary/bin/hvdcp:system/bin/hvdcp \
-    vendor/sony/flamingo/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/flamingo/proprietary/bin/led_daemon:system/bin/led_daemon \
     vendor/sony/flamingo/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/sony/flamingo/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/sony/flamingo/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/flamingo/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/sony/flamingo/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/sony/flamingo/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/sony/flamingo/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-    vendor/sony/flamingo/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/flamingo/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/flamingo/proprietary/bin/radish:system/bin/radish \
     vendor/sony/flamingo/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/sony/flamingo/proprietary/bin/rild:system/bin/rild \
-    vendor/sony/flamingo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/flamingo/proprietary/bin/scd:system/bin/scd \
     vendor/sony/flamingo/proprietary/bin/scdnotifier:system/bin/scdnotifier \
-    vendor/sony/flamingo/proprietary/bin/sct_service:system/bin/sct_service \
-    vendor/sony/flamingo/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/flamingo/proprietary/bin/taimport:system/bin/taimport \
-    vendor/sony/flamingo/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
-    vendor/sony/flamingo/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/sony/flamingo/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/flamingo/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/flamingo/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
@@ -61,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/flamingo/proprietary/etc/firmware/cmnlib.mdt:system/etc/firmware/cmnlib.mdt \
     vendor/sony/flamingo/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/sony/flamingo/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/sony/flamingo/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/sony/flamingo/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/flamingo/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/flamingo/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
@@ -94,7 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/flamingo/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/flamingo/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/flamingo/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
-    vendor/sony/flamingo/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/flamingo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/flamingo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/sony/flamingo/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
@@ -115,20 +103,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/flamingo/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/sony/flamingo/proprietary/lib/libscdclient.so:system/lib/libscdclient.so \
     vendor/sony/flamingo/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/sony/flamingo/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/flamingo/proprietary/lib/soundfx/libposteffectwrapper.so:system/lib/soundfx/libposteffectwrapper.so \
     vendor/sony/flamingo/proprietary/lib/soundfx/libpreeffectwrapper.so:system/lib/soundfx/libpreeffectwrapper.so \
     vendor/sony/flamingo/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
     vendor/sony/flamingo/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/sony/flamingo/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
@@ -243,15 +223,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/flamingo/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/sony/flamingo/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
     vendor/sony/flamingo/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/sony/flamingo/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
@@ -318,31 +294,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/flamingo/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/sony/flamingo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/sony/flamingo/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
@@ -357,8 +316,5 @@ PRODUCT_COPY_FILES += \
     vendor/sony/flamingo/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/sony/flamingo/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/sony/flamingo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/sony/yukon-eagle/proprietary/bin/wifimactool:system/bin/wifimactool
+    vendor/sony/flamingo/proprietary/bin/wifimactool:system/bin/wifimactool
