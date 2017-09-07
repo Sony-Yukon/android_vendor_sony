@@ -1,5 +1,4 @@
 PRODUCT_PLATFORM := yukon
-$(call inherit-product, vendor/qcom/prebuilt/qcom-vendor.mk)
-$(call inherit-product, vendor/sony/yukon/yukon-partial.mk)
-$(call inherit-product, $(LOCAL_PATH)/flamingo-partial.mk)
-$(call inherit-product, $(LOCAL_PATH)/flamingo-vendor-blobs.mk)
+$(call inherit-product, vendor/sony/yukon/yukon-vendor.mk)
+$(call inherit-product, vendor/sony/flamingo/flamingo-partial.mk)
+$(call inherit-product, vendor/sony/yukon-flamingo/flamingo-stock.mk)

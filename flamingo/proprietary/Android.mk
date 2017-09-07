@@ -170,193 +170,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := isdbtmm_b00
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/isdbtmm.b00
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := isdbtmm
-LOCAL_MODULE_SUFFIX := .b00
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := isdbtmm_b01
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/isdbtmm.b01
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := isdbtmm
-LOCAL_MODULE_SUFFIX := .b01
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := isdbtmm_b02
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/isdbtmm.b02
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := isdbtmm
-LOCAL_MODULE_SUFFIX := .b02
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := isdbtmm_b03
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/isdbtmm.b03
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := isdbtmm
-LOCAL_MODULE_SUFFIX := .b03
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := isdbtmm_mdt
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/isdbtmm.mdt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := isdbtmm
-LOCAL_MODULE_SUFFIX := .mdt
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mba_b00
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/mba.b00
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := mba
-LOCAL_MODULE_SUFFIX := .b00
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mba_mdt
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/mba.mdt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := mba
-LOCAL_MODULE_SUFFIX := .mdt
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mc_v2_b00
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/mc_v2.b00
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := mc_v2
-LOCAL_MODULE_SUFFIX := .b00
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mc_v2_b01
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/mc_v2.b01
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := mc_v2
-LOCAL_MODULE_SUFFIX := .b01
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mc_v2_b02
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/mc_v2.b02
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := mc_v2
-LOCAL_MODULE_SUFFIX := .b02
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mc_v2_b03
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/mc_v2.b03
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := mc_v2
-LOCAL_MODULE_SUFFIX := .b03
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mc_v2_mdt
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/mc_v2.mdt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := mc_v2
-LOCAL_MODULE_SUFFIX := .mdt
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := playready_b00
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/playready.b00
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := playready
-LOCAL_MODULE_SUFFIX := .b00
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := playready_b01
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/playready.b01
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := playready
-LOCAL_MODULE_SUFFIX := .b01
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := playready_b02
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/playready.b02
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := playready
-LOCAL_MODULE_SUFFIX := .b02
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := playready_b03
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/playready.b03
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := playready
-LOCAL_MODULE_SUFFIX := .b03
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := playready_mdt
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/playready.mdt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := playready
-LOCAL_MODULE_SUFFIX := .mdt
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := wcnss_b00
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/wcnss.b00
@@ -456,61 +269,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := widevine_b00
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/widevine.b00
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := widevine
-LOCAL_MODULE_SUFFIX := .b00
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := widevine_b01
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/widevine.b01
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := widevine
-LOCAL_MODULE_SUFFIX := .b01
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := widevine_b02
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/widevine.b02
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := widevine
-LOCAL_MODULE_SUFFIX := .b02
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := widevine_b03
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/widevine.b03
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := widevine
-LOCAL_MODULE_SUFFIX := .b03
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := widevine_mdt
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/widevine.mdt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := widevine
-LOCAL_MODULE_SUFFIX := .mdt
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := btnvtool
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/bin/btnvtool
@@ -521,9 +279,29 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := sensors.msm8226
+LOCAL_MODULE := sensors.flamingo
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/hw/sensors.msm8226.so
+LOCAL_SRC_FILES := vendor/lib/hw/sensors.flamingo.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := camera.vendor.flamingo
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/hw/camera.vendor.flamingo.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lights.vendor.flamingo
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/hw/lights.vendor.flamingo.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

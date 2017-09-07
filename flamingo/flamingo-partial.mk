@@ -1,4 +1,4 @@
-# Copyright (C) 2012 Sony Mobile Communication
+# Copyright (C) 2017 Sony Mobile Communication
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,23 +27,6 @@ PRODUCT_PACKAGES += \
 	adsp_b11 \
 	adsp_b12 \
 	adsp_mdt \
-	isdbtmm_b00 \
-	isdbtmm_b01 \
-	isdbtmm_b02 \
-	isdbtmm_b03 \
-	isdbtmm_mdt \
-	mba_b00 \
-	mba_mdt \
-	mc_v2_b00 \
-	mc_v2_b01 \
-	mc_v2_b02 \
-	mc_v2_b03 \
-	mc_v2_mdt \
-	playready_b00 \
-	playready_b01 \
-	playready_b02 \
-	playready_b03 \
-	playready_mdt \
 	wcnss_b00 \
 	wcnss_b01 \
 	wcnss_b02 \
@@ -53,10 +36,67 @@ PRODUCT_PACKAGES += \
 	wcnss_b08 \
 	wcnss_b09 \
 	wcnss_mdt \
-	widevine_b00 \
-	widevine_b01 \
-	widevine_b02 \
-	widevine_b03 \
-	widevine_mdt \
 	btnvtool \
-	sensors.msm8226
+	sensors.flamingo \
+	camera.vendor.flamingo \
+	lights.vendor.flamingo
+
+# Not every modem blob is present on each device, it's simply easier to include
+# them all here and let Android.mk sort it out per device.
+
+PRODUCT_PACKAGES += \
+	mba_b00 \
+	mba_mdt \
+	modem_b00 \
+	modem_b01 \
+	modem_b02 \
+	modem_b03 \
+	modem_b04 \
+	modem_b05 \
+	modem_b06 \
+	modem_b07 \
+	modem_b08 \
+	modem_b09 \
+	modem_b10 \
+	modem_b11 \
+	modem_b12 \
+	modem_b13 \
+	modem_b14 \
+	modem_b15 \
+	modem_b16 \
+	modem_b17 \
+	modem_b18 \
+	modem_b19 \
+	modem_b20 \
+	modem_b21 \
+	modem_b22 \
+	modem_b23 \
+	modem_b24 \
+	modem_b25 \
+	modem_b26 \
+	modem_b27 \
+	modem_mdt \
+	3g-mba_b00 \
+	3g-mba_mdt \
+	3g-modem_b00 \
+	3g-modem_b01 \
+	3g-modem_b02 \
+	3g-modem_b03 \
+	3g-modem_b04 \
+	3g-modem_b05 \
+	3g-modem_b08 \
+	3g-modem_b11 \
+	3g-modem_b12 \
+	3g-modem_b13 \
+	3g-modem_b15 \
+	3g-modem_b16 \
+	3g-modem_b17 \
+	3g-modem_b18 \
+	3g-modem_b19 \
+	3g-modem_b20 \
+	3g-modem_b21 \
+	3g-modem_b22 \
+	3g-modem_b25 \
+	3g-modem_b26 \
+	3g-modem_b27 \
+	3g-modem_mdt
