@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2017 The CyanogenMod Project
+# Copyright (C) 2011-2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libscdclient.so:system/lib/libscdclient.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/bin/mm-qcamera-daemon:system/vendor/lib/bin/mm-qcamera-daemon \
+    vendor/sony/yukon-flamingo/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libchromatix_s5k5e2_chicony_common.so:system/vendor/lib/libchromatix_s5k5e2_chicony_common.so \
