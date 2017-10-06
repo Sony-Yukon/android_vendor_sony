@@ -289,16 +289,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := camera.msm8226
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/hw/camera.msm8226
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := lights.vendor.flamingo
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/hw/lights.vendor.flamingo.so

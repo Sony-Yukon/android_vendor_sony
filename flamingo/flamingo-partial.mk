@@ -38,7 +38,6 @@ PRODUCT_PACKAGES += \
 	wcnss_mdt \
 	btnvtool \
 	sensors.flamingo \
-	camera.msm8226 \
 	lights.vendor.flamingo
 
 # Not every modem blob is present on each device, it's simply easier to include
