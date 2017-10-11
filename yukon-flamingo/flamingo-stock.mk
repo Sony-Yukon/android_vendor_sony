@@ -16,7 +16,7 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/yukon-flamingo/proprietary/bin/mm-pp-daemon:system/bin/mm-qcamera-app \
-    vendor/sony/yukon-flamingo/proprietary/lib/hw/camera.msm8226.so:system/lib/camera.msm8226.so \
+    vendor/sony/yukon-flamingo/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/sony/yukon-flamingo/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/sony/yukon-flamingo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \ 
     vendor/sony/yukon-flamingo/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
