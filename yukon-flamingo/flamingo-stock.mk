@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
+    vendor/sony/yukon-flamingo/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/yukon-flamingo/proprietary/lib/librilutils.so:system/lib/librilutils.so \
