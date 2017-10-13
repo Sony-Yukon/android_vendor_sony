@@ -143,3 +143,7 @@ PRODUC_COPY_FILES += \
 # WIFI MAC
 PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/bin/wifimactool:system/bin/wifimactool
+
+# NFC
+PRODUCT_COPY_FILES += \
+    vendor/sony/yukon-flamingo/proprietary/lib/libstlport.so:system/lib/libstlport.so
