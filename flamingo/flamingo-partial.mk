@@ -99,5 +99,9 @@ PRODUCT_PACKAGES += \
 	3g-modem_b26 \
 	3g-modem_b27 \
 	3g-modem_mdt \
-	sony_permissions \
-	sony_framework
+	com.sonymobile.home.resourceprovider \
+	com.sonyericsson.colorextraction \
+	com.sony.device \
+	framework-com.sonymobile.home.resourceprovider \
+	framework-com.sonyericsson.colorextraction \
+	framework-com.sony.device
