@@ -72,14 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
 
-# SoundFX
-PRODUC_COPY_FILES += \
-    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libposteffectwrapper.so:system/lib/soundfx/libposteffectwrapper.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libpreeffectwrapper.so:system/lib/soundfx/libpreeffectwrapper.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so
-
 # WIFI MAC
 PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/bin/wifimactool:system/bin/wifimactool
@@ -151,3 +143,12 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 #PRODUC_COPY_FILES += \
 #    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so
+
+# SoundFX
+#PRODUC_COPY_FILES += \
+#    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libposteffectwrapper.so:system/lib/soundfx/libposteffectwrapper.so \
+#    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libpreeffectwrapper.so:system/lib/soundfx/libpreeffectwrapper.so \
+#    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
+#    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+#    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so
+
