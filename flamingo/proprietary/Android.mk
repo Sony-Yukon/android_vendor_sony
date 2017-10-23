@@ -297,4 +297,26 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
 include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := sony_permissions
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/permissions/*.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := wcnss
+LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/permissions
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := sony_framework
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := framework/*.jar
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := wcnss
+LOCAL_MODULE_SUFFIX := .jar
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/framework
+include $(BUILD_PREBUILT)
 endif
