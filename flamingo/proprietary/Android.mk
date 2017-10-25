@@ -1,4 +1,4 @@
-# Copyright (C) 2013 Sony Mobile Communication
+# Copyright (C) 2017 Sony Mobile Communication
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -296,65 +296,5 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.sonymobile.home.resourceprovider
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/permissions/com.sonymobile.home.resourceprovider.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .xml
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/permissions
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := framework-com.sonymobile.home.resourceprovider
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := framework/com.sonymobile.home.resourceprovider.jar
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .jar
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/framework
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.sonyericsson.colorextraction
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/permissions/com.sonyericsson.colorextraction.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .xml
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/permissions
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := framework-com.sonyericsson.colorextraction
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := framework/com.sonyericsson.colorextraction_impl.jar
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .jar
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/framework
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.sony.device
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/permissions/com.sony.device.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .xml
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/permissions
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := framework-com.sony.device.xml
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := framework/com.sony.device.jar
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .jar
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/framework
 include $(BUILD_PREBUILT)
 endif
