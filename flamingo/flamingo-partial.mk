@@ -98,10 +98,14 @@ PRODUCT_PACKAGES += \
 	3g-modem_b25 \
 	3g-modem_b26 \
 	3g-modem_b27 \
-	3g-modem_mdt \
-	com.sonymobile.home.resourceprovider \
-	com.sonyericsson.colorextraction \
-	com.sony.device \
-	framework-com.sonymobile.home.resourceprovider \
-	framework-com.sonyericsson.colorextraction \
-	framework-com.sony.device
+	3g-modem_mdt
+	3g-modem_mdt
+
+# Sony Framework
+PRODUCT_COPY_FILES += \
+        vendor/sony/flamingo/proprietary/etc/permissions/com.sonymobile.home.resourceprovider.xml:system/etc/permissions/com.sonymobile.home.resourceprovider.xml \
+        vendor/sony/flamingo/proprietary/framework/com.sonymobile.home.resourceprovider.jar:system/framework/com.sonymobile.home.resourceprovider.jar \
+        vendor/sony/flamingo/proprietary/etc/permissions/com.sonyericsson.colorextraction.xml:system/etc/permissions/com.sonyericsson.colorextraction.xml \
+        vendor/sony/flamingo/proprietary/framework/com.sonyericsson.colorextraction_impl.jar:system/framework/com.sonyericsson.colorextraction_impl.jar \
+        vendor/sony/flamingo/proprietary/etc/permissions/com.sony.device.xml:system/etc/permissions/com.sony.device.xml \
+        vendor/sony/flamingo/proprietary/framework/com.sony.device.jar:system/framework/com.sony.device.jar
