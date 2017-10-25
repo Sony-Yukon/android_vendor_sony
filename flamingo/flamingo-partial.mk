@@ -98,8 +98,7 @@ PRODUCT_PACKAGES += \
 	3g-modem_b25 \
 	3g-modem_b26 \
 	3g-modem_b27 \
-	3g-modem_mdt
-	3g-modem_mdt
+	3g-modem_mdt	
 
 # Sony Framework
 PRODUCT_COPY_FILES += \
