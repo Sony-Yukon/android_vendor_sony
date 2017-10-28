@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
+    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
@@ -111,7 +112,6 @@ PRODUCT_COPY_FILES += \
 #    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
 #    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
 #    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-#    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
 #    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
 #    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
 #    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
