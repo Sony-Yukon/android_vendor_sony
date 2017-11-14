@@ -15,7 +15,7 @@
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/sony/yukon-flamingo/proprietary/bin/mm-pp-daemon:system/bin/mm-qcamera-app \
+    vendor/sony/yukon-flamingo/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/sony/yukon-flamingo/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
