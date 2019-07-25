@@ -75,7 +75,7 @@ PRODUCT_COPY_FILES += \
 
 # WIFI MAC
 PRODUCT_COPY_FILES += \
-    vendor/sony/yukon-flamingo/proprietary/bin/wifimactool:system/bin/wifimactool
+    vendor/sony/yukon-flamingo/proprietary/bin/updatemiscta:system/bin/updatemiscta
 
 # NFC
 PRODUCT_COPY_FILES += \
