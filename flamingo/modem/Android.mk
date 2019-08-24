@@ -15,26 +15,26 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq (flamingo, $(TARGET_DEVICE))
-#include $(CLEAR_VARS)
+include $(CLEAR_VARS)
 
 # Create default modem symlinks,
 # Necessary when flashing system.img directly,
 # Symlinks san be replaced on recovery install with releasetools.py
-#MODEM_BLOBS := \
-#    mba.b00 mba.mdt \
-#    modem.b00 modem.b01 modem.b02 modem.b03 modem.b04 modem.b05 \
-#    modem.b08 modem.b10 modem.b11 modem.b13 modem.b14 modem.b15 \
-#    modem.b16 modem.b17 modem.b18 modem.b19 modem.b20 modem.b21 \
-#    modem.b22 modem.b25 modem.b26 modem.b27 modem.mdt
-#
-#MODEM_SYMLINKS := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(notdir $(MODEM_BLOBS)))
-#$(MODEM_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-#	@echo "Modem symlink: $@"
-#	@mkdir -p $(dir $@)
-#	@rm -rf $@
-#	$(hide) ln -sf /system/blobs/d2203/$(notdir $@) $@
-#
-#ALL_DEFAULT_INSTALLED_MODULES += $(MODEM_SYMLINKS)
+MODEM_BLOBS := \
+    mba.b00 mba.mdt \
+    modem.b00 modem.b01 modem.b02 modem.b03 modem.b04 modem.b05 \
+    modem.b08 modem.b10 modem.b11 modem.b13 modem.b14 modem.b15 \
+    modem.b16 modem.b17 modem.b18 modem.b19 modem.b20 modem.b21 \
+    modem.b22 modem.b25 modem.b26 modem.b27 modem.mdt
+
+MODEM_SYMLINKS := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(notdir $(MODEM_BLOBS)))
+$(MODEM_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
+	@echo "Modem symlink: $@"
+	@mkdir -p $(dir $@)
+	@rm -rf $@
+	$(hide) ln -sf /system/blobs/d2203/$(notdir $@) $@
+
+ALL_DEFAULT_INSTALLED_MODULES += $(MODEM_SYMLINKS)
 
 # d2203/d2206/d2243 Modem Blobs
 include $(CLEAR_VARS)
