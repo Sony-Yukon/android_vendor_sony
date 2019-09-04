@@ -26,18 +26,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/yukon-flamingo/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/sony/yukon-flamingo/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+    vendor/sony/yukon-flamingo/proprietary/lib/libjni_gallery_jpegstream.so:system/lib/libjni_gallery_jpegstream.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/yukon-flamingo/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
@@ -52,19 +51,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/libqservice.so:system/lib/libqservice.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libscdclient.so:system/lib/libscdclient.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/sony/yukon-flamingo/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
@@ -83,7 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
@@ -200,22 +190,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
@@ -306,7 +291,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
@@ -317,25 +301,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
@@ -343,8 +315,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
@@ -371,9 +341,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/sony/yukon-flamingo/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
