@@ -82,10 +82,15 @@ PRODUCT_PACKAGES += \
 	3g-modem_b03 \
 	3g-modem_b04 \
 	3g-modem_b05 \
+	3g-modem_b06 \
+	3g-modem_b07 \
 	3g-modem_b08 \
+	3g-modem_b09 \
+	3g-modem_b10 \
 	3g-modem_b11 \
 	3g-modem_b12 \
 	3g-modem_b13 \
+	3g-modem_b14 \
 	3g-modem_b15 \
 	3g-modem_b16 \
 	3g-modem_b17 \
@@ -94,10 +99,12 @@ PRODUCT_PACKAGES += \
 	3g-modem_b20 \
 	3g-modem_b21 \
 	3g-modem_b22 \
+	3g-modem_b23 \
+	3g-modem_b24 \
 	3g-modem_b25 \
 	3g-modem_b26 \
 	3g-modem_b27 \
-	3g-modem_mdt	
+	3g-modem_mdt
 
 # Sony Framework
 PRODUCT_COPY_FILES += \
