@@ -16,4 +16,5 @@ PRODUCT_PACKAGES += \
 	btnvtool \
 	libpn547_fw \
 	sensors.eagle \
-	libyasalgo
+	libyasalgo \
+	sensors

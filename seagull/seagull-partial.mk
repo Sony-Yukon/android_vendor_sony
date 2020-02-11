@@ -16,4 +16,5 @@ PRODUCT_PACKAGES += \
 	TRULY_GFF_FW \
 	VersionInformation \
 	WINTEK_OGS_FW \
-	sensors.seagull
+	sensors.seagull \
+	sensors

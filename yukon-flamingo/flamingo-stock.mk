@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The Android Open Source Project
+# Copyright (C) 2019-2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/sony/yukon-flamingo/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/sony/yukon-flamingo/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \

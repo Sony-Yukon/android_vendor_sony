@@ -1,4 +1,4 @@
-# Copyright (C) 2012 Sony Mobile Communication
+# Copyright (C) 2012-2020 Sony Mobile Communication
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,7 +22,6 @@ PRODUCT_PACKAGES += \
 	qseecomd \
 	rmt_storage \
 	sct_service \
-	sensors \
 	ta_qmi_service \
 	tad_static \
 	libQSEEComAPI \
