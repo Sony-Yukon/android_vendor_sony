@@ -16,4 +16,4 @@ PRODUCT_PACKAGES += \
 	TRULY_GFF_FW \
 	VersionInformation \
 	WINTEK_OGS_FW \
-	sensors.msm8226
+	sensors.seagull

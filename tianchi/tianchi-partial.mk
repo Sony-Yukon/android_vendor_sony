@@ -39,4 +39,4 @@ PRODUCT_PACKAGES += \
 	wcnss_b08 \
 	wcnss_b09 \
 	wcnss_mdt \
-	sensors.msm8226
+	sensors.tianchi
