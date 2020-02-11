@@ -1,4 +1,4 @@
-# Copyright (C) 2012 Sony Mobile Communication
+# Copyright (C) 2012-2020 Sony Mobile Communication
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -39,5 +39,4 @@ PRODUCT_PACKAGES += \
 	wcnss_b08 \
 	wcnss_b09 \
 	wcnss_mdt \
-	libpn547_fw \
 	sensors.msm8226
