@@ -1,4 +1,4 @@
-# Copyright (C) 2019-2020 The Android Open Source Project
+# Copyright (C) 2019-2021 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -62,9 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-flamingo/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libposteffectwrapper.so:system/lib/soundfx/libposteffectwrapper.so \
     vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libpreeffectwrapper.so:system/lib/soundfx/libpreeffectwrapper.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
-    vendor/sony/yukon-flamingo/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/sony/yukon-flamingo/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/sony/yukon-flamingo/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/sony/yukon-flamingo/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
